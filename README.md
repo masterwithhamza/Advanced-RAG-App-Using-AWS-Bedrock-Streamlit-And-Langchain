@@ -6,6 +6,13 @@ Create an interactive application that allows users to ask questions about the c
 
 This project demonstrates the integration of advanced language models and document processing technologies to build an interactive question-answering system based on PDF content. By leveraging AWS Bedrock, LangChain, and Streamlit, the project provides a robust solution for extracting insights and answering questions from document text.
 
+What is Retrieval-Augmented Generation (RAG)?
+RAG combines two key components:
+
+Retrieval: This part involves searching for relevant information from a large database or collection of documents. When a query is given, the system uses a retrieval mechanism to find documents or snippets that are most relevant to the query. This step is similar to how a search engine works, pulling up the most relevant web pages for your search terms.
+
+Generation: After retrieving the relevant documents, a language model generates a response. This is done by using the retrieved information as context to produce a more accurate and informed response. The language model synthesizes information from the documents and creates a coherent answer to the query.
+
 
 
 
